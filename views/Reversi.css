@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    font-family: 'Times New Roman';
+    line-height: 0%;
+}
+
+body {
+    background-color: green;
+}
+
+a {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+#content {
+    position: relative;
+    margin: auto;
+    max-width: 370px;
+    max-height: 492px;
+}
+
+#head-content {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+}
+
+#head {
+    position: relative;
+    height: 72px;
+    top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    box-shadow: 2px 2px 10px black;
+}
+
+#space {
+    position: relative;
+    height: 370px;
+    top: 10px;
+    align-content: center;
+    background-color: rgba(72, 41, 13, 1.0);
+    box-shadow: 2px 2px 10px black;
+}
+
+#space-grid {
+    top: 40px;
+    left: 40px;
+    height: 320px;
+    width: 320px;
+    position: absolute;
+}
+
+#space-indices {
+    height: 360px;
+    width: 360px;
+    position: absolute;
+}
+
+#space-button-grid {
+    top: 40px;
+    left: 40px;
+    height: 320px;
+    width: 320px;
+    position: absolute;
+}
+
+.grid-item {
+    width: 40px;
+    height: 40px;
+    border: 0.5px solid lightgrey;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.grid-indices-item {
+    top: 13px;
+    width: 40px;
+    height: 40px;
+    color: lightgrey;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    align-content: center;
+}
+
+.use-text {
+    line-height: 100%;
+}
+
+.grid-button-item {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    z-index: 100;
+}
+
+.grid-button-item:hover {
+    border-radius: 20px;
+    background: radial-gradient(rgba(255, 0, 0, 0.5), rgba(160, 90, 90, 0.1), rgba(128, 128, 128, 0.0));
+}
+
+.dark-piece {
+    left: 5px;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 15px;
+    background: radial-gradient(rgb(67, 67, 67), black);
+    box-shadow: 2px 2px 2px black;
+}
+
+.light-piece {
+    left: 5px;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 15px;
+    background: radial-gradient(white, lightgrey);
+    box-shadow: 2px 2px 2px black;
+}
+
+.placeable {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    border-radius: 20px;
+    background: radial-gradient(rgba(0, 255, 0, 0.25), rgba(90, 160, 90, 0.05), rgba(128, 128, 128, 0.0));
+}
+
+#front-message {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    text-align: center;
+    z-index: 500;
+}
+
+.div-button, .div-button-disabled {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 2px 2px 10px black;
+    height: 50px;
+    min-width: 400px;
+    max-width: 600px;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    margin-top: 60px;
+}
+
+.div-button {
+    cursor: pointer;
+}
+
+.title {
+    color: white;
+    text-shadow: 2px 2px 10px black;
+}
